@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: Portfolio-API
+  datasource:
+    url: jdbc:postgresql://localhost:5432/portfolio
+    username: postgres
+    password: root@123
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+
+jwt:
+  secret: eyJhcGkta2V5IjogImFzbmJ0dWVhb3J1ZW9idTQzNW5zdGF1In0KeyJhcGkta2V5IjogImFzbmJ0dWVhb3J1ZW9idTQzNW5zdGF1In0KeyJhcGkta2V5IjogImFzbmJ0dWVhb3J1ZW9idTQzNW5zdGF1In0KeyJhcGkta2V5IjogImFzbmJ0dWV1ZW9idTW5eyJhcGkta2V5IjogImFzbmJ0dVb3ZW9idTQzNW1In0KeyJhcGkta2V5IjogImFzbmJ0dWVhb3J1ZW9idTQzNW5zdGF1In0K
+
+
